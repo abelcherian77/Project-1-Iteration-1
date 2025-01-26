@@ -1,0 +1,133 @@
+/* Completely different styles with red, black, and green colors
+
+body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    background-color: #ff3333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #1b1b1b;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: #ff3333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+   */
+  
+  /* Enhanced styles with red, black, and green colors */
+
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff4d4d;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #413f3f;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #8f6e6e;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/*image styling*/
+
+.image-section {
+  position: relative;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 45%; /* Adjust the width based on your preference */
+  max-width: 400px; /* Set a maximum width for flexibility */
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 20px; /* Add space between images */
+}
+
+/* Add more styles as needed */
